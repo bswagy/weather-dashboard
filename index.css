@@ -1,0 +1,94 @@
+*{ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: dodgerblue;
+  font-family: Arial, sans-serif; /* Choose a suitable font */
+  color: white; 
+} 
+
+header {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  padding: 20px;
+  text-align: center;
+}
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+} 
+
+#searchForm {
+  margin: 20px auto;
+  text-align: center;
+}
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+} 
+
+main {
+  display: flex;
+  flex-wrap: column;
+  justify-content: center;
+  margin: 20px auto;
+}
+section {
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+} 
+.weather-details {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.weather-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+
+#searchHistory {
+  text-align: center;
+}
+.searchedCity {
+  cursor: pointer;
+  padding: 5px 10px;
+  margin: 5px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); 
+
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.searchedCity:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+
+}
